@@ -1,3 +1,85 @@
 .bannerBg {
-    width: 100%
+    width: 100%;
 }
+.video {
+    /* position: absolute !important; */
+    z-index: 1;
+    /* left: 0; */
+    /* width: 100%; */
+    height: 100%;
+    object-fit: cover;
+    opacity: 1;
+    transition: opacity .2s cubic-bezier(.16,1.08,.38,.98);
+    transform: rotate(180deg) scaleY(-1);
+}
+.videoContainer {
+    position: absolute;
+    z-index: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    overflow: hidden;
+    overflow: clip;
+    transform: translate3d(0px, 0px, 0px);
+    will-change: transform;
+    height: 100%;
+}
+
+.logo {
+    width: 6rem;
+}
+
+.mainHeaderContainer {
+    /* display: flex; */
+    position: relative;
+    height: 88vh;
+    overflow: hidden;
+    overflow: clip;
+    margin: 0 auto;
+    padding-top: 10rem;
+    padding-bottom: 2rem;
+    background: #000;
+    align-items: flex-end;
+}
+
+.headerTextContainer {
+    max-width: 1920px;
+    margin-right: auto;
+    margin-left: auto;
+    width: 88.8vw;
+}
+.textContainer {
+    position: relative;
+    z-index: 1;
+}
+
+@media only screen and (max-width: 600px) {
+    .headerTextContainer {
+        width: 88.8vw;
+    }
+}
+
+.h_text {
+    font-size: 7rem;
+    line-height: .77;
+    color: #fff;    
+    font-family: 'Hanalei Fill', cursive;
+    
+}
+.h_text_container {
+    display: inline-block;
+    overflow: hidden;
+    overflow: clip;
+    margin: -.2em;
+    padding: .2em;
+}
+
+
+h1 h2 h3 h4 h5 h6 {
+    font-family: 'Hellix' ,'Helvetica','Arial',sans-serif; 
+
+    font-family: 'Poppins', sans-serif;
+    line-height: .9;
+    white-space: pre-wrap;
+    letter-spacing: -.04em;
+  }
