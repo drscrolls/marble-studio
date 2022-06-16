@@ -1,0 +1,70 @@
+.aboutContainer {
+    background-color: red;
+    padding: 50px;
+    width: 100%;
+}
+
+.imageContainer {
+    padding: 20px;
+    background-color: black;
+}
+.img {
+    height: 20em;
+    animation: rotation 8s infinite linear;
+}
+
+@keyframes rotation {
+    from {
+        /* transform: rotate(0deg); */
+        transform: translate3d(0px, 10.135px, 0px) rotate(1.68926deg);
+    }
+    to {
+        /* transform: rotate(359deg); */
+        transform: translate3d(0px, 10.135px, 0px) rotate(1.68926deg);
+    }
+}
+
+.title {
+    color: white;
+    font-size: 50px;
+    font-family: "Lato", Arial, sans-serif;
+    float: left;
+    text-align: left;
+    line-height: 0.9;
+    font-weight: bold;
+    margin-bottom: 0.5em;
+
+}
+
+.desc  p {
+    margin-bottom: 1em;
+    color: #9c9c9c;
+    text-align: left;
+    font-size: 0.9rem;
+}
+
+.button_container {
+    float: left;
+}
+
+.gray-button {
+    background-color: #262626;
+    color: #fff;
+    position: relative;
+    overflow: hidden;
+    overflow: clip;
+    transition: all .6s cubic-bezier(.26,1.04,.54,1);
+    transition-property: all;
+    transition-duration: 0.6s;
+    transition-property: border,color;
+    text-transform: uppercase;
+    border-radius: 25px;
+    border: 0px;
+    cursor: pointer;
+    font-weight: bold;
+    padding: 15px 20px;
+}
+
+.gray-button:hover{
+    background-color: linear-gradient(to right, #f000 , #0040ff);
+}

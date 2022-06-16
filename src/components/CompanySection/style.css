@@ -135,7 +135,7 @@
     padding: .2em;
 }
 
-.h_text_container {
+.button_container {
     display: inline-block;
     overflow: hidden;
     overflow: clip;
