@@ -1,0 +1,42 @@
+.nav {
+    display: flex;
+    position: absolute;
+    z-index: 2;
+    top: 3rem;
+    left: 0;
+    width: 100%;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    /* color: #0e0e0e; */
+    color: white;
+    transition: opacity .5s cubic-bezier(.16,1.08,.38,.98),visibility .5s;
+    pointer-events: none;
+    will-change: opacity;
+}
+
+.navLeft {
+    display: flex;
+    align-items: center;
+    color: white;
+    margin-left: 2rem;
+}
+
+.navRight {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    color: white;
+    margin-right: 2rem;
+}
+
+.navLogo {
+    -webkit-transform: translate3d(0,-7.5rem,0);
+    transform: translate3d(0,-7.5rem,0);
+    transition: -webkit-transform 1.2s cubic-bezier(.16,1.08,.38,.98);
+    transition: transform 1.2s cubic-bezier(.16,1.08,.38,.98);
+    transition: transform 1.2s cubic-bezier(.16,1.08,.38,.98),-webkit-transform 1.2s cubic-bezier(.16,1.08,.38,.98);
+    transition-delay: 0s, 0s;
+    transition-delay: var(--delay-mobile);
+    pointer-events: all;
+}
