@@ -13,7 +13,39 @@ function App() {
   return (
     <div className="App">
       <Header />
-        <ParallaxProvider>
+
+      <ParallaxProvider>
+        <ParallaxBanner
+          style={{ height: "80vh" }}
+          layers={[
+            {
+              children: (
+                <VideoBackground />
+              ),
+              amount: 0.5,
+              speed: -20
+            },
+            {
+              children: <div style={{position: 'relative', color: 'white'}}>Children 1</div>,
+              speed: 0
+            }
+          ]}>
+          
+        </ParallaxBanner>
+        <Parallax
+          className="your-class"
+          style={{height: "100vh"}}
+          translateY={[
+            '50%',
+            '-50%'
+          ]}>
+          <CompanySection />
+        </Parallax>
+      </ParallaxProvider>
+
+
+
+        {/* <ParallaxProvider>
           <ParallaxBanner
             className="videoContainer"
             
@@ -40,7 +72,7 @@ function App() {
           
           <CompanySection />
           
-        </ParallaxProvider>
+        </ParallaxProvider> */}
       
     </div>
   );
