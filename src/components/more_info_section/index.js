@@ -8,7 +8,7 @@ const MoreInfoSection = () => {
     <div className="moreInfoContainer">
       <div>
           <Container>
-            <Row xs={1} md={1} lg={2}>
+            <Row xs={1} md={1} lg={2} style={{marginBottom: 200}}>
             <Col>
                 <div className="title">
                   Help Us Reverse Climate Change
@@ -23,10 +23,14 @@ const MoreInfoSection = () => {
               </Col>
             </Row>
 
+
+
+
+
             <Row xs={1} md={1} lg={2} style={{borderTop: '1px solid #222', paddingTop: 25, marginTop: 20}}>
              <Col>
                 <div className="row" style={{float: 'left',texAlign: 'left'}}>
-                  <h2>Help Us Reverse Climate Change</h2>
+                  <p className="subtitle">Help Us Reverse Climate Change</p>
                 </div>
 
               </Col>
@@ -41,8 +45,8 @@ const MoreInfoSection = () => {
 
             <Row xs={1} md={1} lg={2} style={{borderTop: '1px solid #222', paddingTop: 25, marginTop: 20}}>
              <Col>
-                <div className="row" style={{float: 'left',texAlign: 'left'}}>
-                  <h2>Help Us Reverse Climate Change</h2>
+                <div className="row subtitle" style={{float: 'left',texAlign: 'left'}}>
+                  <p className="subtitle">Help Us Reverse Climate Change</p>
                 </div>
 
               </Col>
@@ -59,7 +63,7 @@ const MoreInfoSection = () => {
             <Row xs={1} md={1} lg={2} style={{borderTop: '1px solid #222', paddingTop: 25, marginTop: 20}}>
              <Col>
                 <div className="row" style={{float: 'left',texAlign: 'left'}}>
-                  <h2>Help Us Reverse Climate Change</h2>
+                  <p className="subtitle">Help Us Reverse Climate Change</p>
                 </div>
 
               </Col>
