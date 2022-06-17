@@ -1,5 +1,6 @@
 .bannerBg {
     width: 100%;
+    height: 100vh !important;
 }
 .video {
     /* position: absolute !important; */
@@ -7,7 +8,7 @@
     /* left: 0; */
     /* width: 100%; */
     height: 100%;
-    object-fit: cover;
+    object-fit: none;
     opacity: 1;
     transition: opacity .2s cubic-bezier(.16,1.08,.38,.98);
     transform: rotate(180deg) scaleY(-1);
