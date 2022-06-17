@@ -1,10 +1,12 @@
 import logo from './logo.svg';
 import './App.css';
-import Header from './components/Navigation';
-import VideoHeader from './components/VideoHeader';
-import VideoBackground from './components/VideoBackground';
-import CompanySection from './components/CompanySection';
+import Header from './components/navigation';
+import VideoHeader from './components/video_header';
+import VideoBackground from './components/video_background';
+import CompanySection from './components/company_section';
 import { ParallaxBanner, Parallax, ParallaxProvider } from 'react-scroll-parallax'
+import Footer from './components/footer';
+import Newsletter from './components/newsletter';
 
 
 function App() {
@@ -52,7 +54,6 @@ function App() {
             </div>
           </ParallaxBanner>
         </ParallaxProvider>
-      
       
     </div>
   );

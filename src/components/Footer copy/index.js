@@ -4,7 +4,7 @@ import { Container, Row, Col, Image } from 'react-bootstrap'
 import "./style.css";
 import VideoBackground from '../video_background';
 
-const Newsletter = () => {
+const ConclusionSection = () => {
   return (
     <div className="conclusionContainer">
       <div>
@@ -103,4 +103,4 @@ const Newsletter = () => {
   )
 }
 
-export default Newsletter;
+export default ConclusionSection;
