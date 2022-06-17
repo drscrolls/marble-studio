@@ -32,7 +32,7 @@
 .mainHeaderContainer {
     /* display: flex; */
     position: relative;
-    height: 88vh;
+    height: 100%;
     overflow: hidden;
     overflow: clip;
     margin: 0 auto;

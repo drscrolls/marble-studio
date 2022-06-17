@@ -69,10 +69,7 @@ const VideoHeader = () => {
             </Container>
             </div>
           </div>
-          <p>We partner with scientists, engineers and operators to build deeptech startups that slash emissions, remove carbon, and cool the planet.</p>
-          <div> <a rel="noopener noreferrer" target="_blank" href="https://marblestudio.typeform.com/to/JJsTUSKk#opparea=openapp">Apply Now
-            <svg width="11" height="10" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="m6.143 9 4-4-4-4M10.143 5H1" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path></svg>
-          </a> </div>
+          
         </div>
       </div>
     </div>

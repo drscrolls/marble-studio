@@ -17,7 +17,7 @@ function App() {
 
       <ParallaxProvider>
         <ParallaxBanner
-          style={{ height: "80vh" }}
+          style={{ height: "100vh" }}
           layers={[
             {
               children: (
