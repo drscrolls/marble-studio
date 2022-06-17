@@ -45,3 +45,16 @@ h1 h2 h3 h4 h5 h6 {
   white-space: pre-wrap;
   letter-spacing: -.04em;
 }
+
+.videoContainer {
+  /* display: flex; */
+  position: relative;
+  height: 88vh;
+  overflow: hidden;
+  overflow: clip;
+  margin: 0 auto;
+  padding-top: 10rem;
+  padding-bottom: 2rem;
+  background: #000;
+  align-items: flex-end;
+}
