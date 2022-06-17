@@ -33,7 +33,34 @@ const VideoBackground = () => {
 
           </ParallaxProvider>
 
+{/* 
+          
+          <div className="container">
+            <div className="textContainer">
+                <div className="h_text_container" style={{ float: "left"}}>
+                  <span className="h_text" style={{ marginRight: 15}}>Solve</span>  
+                  <span className="h_text">Hard</span> 
+                  <div style={{display: "block"}}>
+                    <span className="h_text">Climate</span>  
+                  </div>
+                  <div style={{display: "block"}}>
+                    <span className="h_text">Problems</span> 
+                  </div>
+                </div> 
+            </div>
 
+            <div className="descContainer">
+                  <div className="d_text">
+                  We partner with scientists, engineers and operators to build deeptech
+                  startups that slash emissions, remove carbon, and cool the planet.
+                  </div>
+            </div> 
+
+            <div className="button_container">
+              <button className="white-button">Apply now</button>
+            </div>
+            
+          </div> */}
           
       </div>
 

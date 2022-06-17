@@ -7,6 +7,7 @@ import { ParallaxBanner, Parallax, ParallaxProvider } from 'react-scroll-paralla
 import Footer from './components/footer';
 import Newsletter from './components/newsletter';
 import VideoContent from './components/video_content';
+import VideoHeader from './components/video_header';
 
 
 function App() {
@@ -20,14 +21,10 @@ function App() {
           layers={[
             {
               children: (
-                <VideoBackground />
+                <VideoHeader />
               ),
               amount: 0.5,
               speed: -20
-            },
-            {
-              children: <div style={{position: 'relative', color: 'white'}}>Children 1</div>,
-              speed: 0
             }
           ]}>
           
