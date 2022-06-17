@@ -1,25 +1,4 @@
-.children_container {
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    display: flex;
-    flex-flow: row wrap;
-    align-items: center;
-    justify-content: center;
-}
 
-.text {
-    color: #fff;
-    font-size: 4vw;
-    font-weight: normal;
-}
-.d-block {
-    
-}.bannerBg {
-    width: 100%;
-}
 .video {
     /* position: absolute !important; */
     /* z-index: 1; */

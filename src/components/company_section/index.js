@@ -11,18 +11,11 @@ const CompanySection = () => {
   return (
     <div className="companyContainer">
 
-      <Parallax
-        className="Parallax-module__parallax--skrA3"
-        translateY={[
-          '50%',
-          '-50%'
-        ]}>
         <AboutSection />
         <MoreInfoSection />
         <ConclusionSection />
         <Newsletter />
         <Footer />
-      </Parallax>
     </div>
   )
 }
