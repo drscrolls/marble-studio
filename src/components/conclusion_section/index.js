@@ -9,7 +9,7 @@ const ConclusionSection = () => {
     <div className="conclusionContainer">
       <div>
         <ParallaxBanner
-          className="videoContainer"
+        style={{height: "100vh" }}
           layers={[
             {
               // image: imgSrc2,
@@ -36,7 +36,7 @@ const ConclusionSection = () => {
             }}>
 
             <div className="conclusion_content">
-              <Container>
+              <Container className="c_text_container">
                 <Row>
                   <Col>
                     <div className="conclusion_text">Ready to Work</div>
@@ -57,22 +57,29 @@ const ConclusionSection = () => {
                     <div className="conclusion_text">Time?</div>
                   </Col>
                 </Row>
+                <Row style={{float: 'right'}}>
+                  <Container>
+                    <Row>
+                      <Col>
+                        <p style={{float: 'left'}} className="c_desc_txt">We are freaked out about climate change — but we are optimists. With the right people, building the right solutions, we can get to net zero in time. Reshape entire industries. And cool the planet.</p>
+                      </Col>
+                    </Row>
+                    <Row>
+                      <Col>
+                        <p style={{float: 'left'}} className="c_desc_txt">This decade is the inflection point. What are you waiting for?</p>
+                      </Col>
+                    </Row>
+                    <Row>
+                      <Col>
+                        <button style={{float: 'left', marginLeft: 20}} className="white-button">Apply now</button>
+                      </Col>
+                    </Row>
+                  </Container>
+                </Row>
+               
               </Container>
 
 
-              <Container className="c_desc_container">
-                <Row>
-                  <Col>
-                    <div className="conclusion_text">Ready to Work</div>
-                  </Col>
-                </Row>
-                  
-                <Row>
-                  <Col>
-                    <div className="conclusion_text">Time?</div>
-                  </Col>
-                </Row>
-              </Container>
 
               
             </div>
