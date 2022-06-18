@@ -43,3 +43,9 @@
     color: #444;
     font-size: 3em !important;
 }
+
+.button_container {
+    position: absolute;
+    right: 0;
+    bottom: 10px;
+}

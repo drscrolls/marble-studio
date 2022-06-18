@@ -2,6 +2,7 @@ import React from 'react'
 import { ParallaxBanner, ParallaxProvider } from 'react-scroll-parallax'
 import { Container, Row, Col, Image } from 'react-bootstrap'
 import "./style.css";
+import ArrowIconButton from '../arrow_icon_button';
 
 const Newsletter = () => {
   return (
@@ -19,7 +20,9 @@ const Newsletter = () => {
           <Col>
             <div className="input_container">
               <input className="input" placeholder="your@email.com" />
-
+              <div className="button_container" >
+                <ArrowIconButton />
+              </div>
             </div>
           </Col>
           <Col>
