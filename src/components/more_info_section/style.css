@@ -4,11 +4,18 @@
     width: 100%;
 }
 
-.title {
-    color: black
+.m_title {
+    color: black;
+    font-size: 50px;
+    font-family: Arial;
+    float: left;
+    text-align: left;
+    line-height: 0.9;
+    font-weight: bold;
+    margin-bottom: 0.5em;
 }
 
-.subtitle {
+.m_subtitle {
     color: black;
     float: left;
     text-align: left;
@@ -16,6 +23,7 @@
     font-weight: 500;
 }
 
-.desc p {
+.m_desc {
     color: #262626;
+    text-align: left;
 }

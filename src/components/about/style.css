@@ -24,7 +24,7 @@
     }
 }
 
-.title {
+.a_title {
     color: white;
     font-size: 50px;
     font-family: Arial;
@@ -36,9 +36,9 @@
 
 }
 
-.desc  p {
+.a_desc {
     margin-bottom: 1em;
-    color: #9c9c9c;
+    color: #eee;
     text-align: left;
     font-size: 0.9rem;
 }
