@@ -50,6 +50,7 @@ const Footer = () => {
               <WhiteButton />
               <DarkButton />
 
+
               {/* <button className="footer_white-button">
                 Apply Now
                 <span style={{marginLeft: 10}}>

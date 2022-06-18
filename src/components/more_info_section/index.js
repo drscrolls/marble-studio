@@ -40,9 +40,9 @@ const MoreInfoSection = () => {
               </Col>
               <Col>
                 
-                <div className="button_container" style={{float: 'right'}}>
+                {/* <div className="button_container" style={{float: 'right'}}>
                   <button className="gray-button">Apply now</button>
-                </div>
+                </div> */}
               </Col>
             </Row>
 
@@ -56,9 +56,9 @@ const MoreInfoSection = () => {
               </Col>
               <Col>
                 
-                <div className="button_container" style={{float: 'right'}}>
+                {/* <div className="button_container" style={{float: 'right'}}>
                   <button className="gray-button">Apply now</button>
-                </div>
+                </div> */}
               </Col>
             </Row>
 
@@ -73,9 +73,9 @@ const MoreInfoSection = () => {
               </Col>
               <Col>
                 
-                <div className="button_container" style={{float: 'right'}}>
+                {/* <div className="button_container" style={{float: 'right'}}>
                   <button className="gray-button">Apply now</button>
-                </div>
+                </div> */}
               </Col>
             </Row>
 

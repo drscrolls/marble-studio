@@ -1,8 +1,8 @@
 import React from 'react'
-import { ParallaxBanner, ParallaxProvider } from 'react-scroll-parallax'
-import {Container, Row, Col, Image} from 'react-bootstrap'
-import "./style.css";
+import {Container, Row, Col} from 'react-bootstrap'
 import Dots from '../dots';
+import DarkButton from '../dark_button';
+import "./style.css";
 
 const AboutSection = () => {
   return (
@@ -18,7 +18,8 @@ const AboutSection = () => {
               <Col>
                 <Dots/>
                 <div className="a_title">
-                  Build A Climate Company
+                  <p>Build A Climate</p> 
+                  <p>Company</p>
                 </div>
 
                 
@@ -26,12 +27,11 @@ const AboutSection = () => {
                   <p>Over 9 months, you will work with us to uncover high-impact opportunities and shape the most promising idea into a new venture.</p>
                   <p>Receive funding, mentorship, hands-on support, access to an unparalleled pool of experts, potential co-founders and advisors.</p>
                   <p>If you succeed, we become your first investor and help you raise a seed round.</p>
+                  <div style={{marginTop: 10}}>
+                    <DarkButton text="HOW IT WORKS" type="gradient" />
+                  </div>
                 </div>
 
-                    
-                <div className="button_container">
-                  <button className="gray-button">Apply now</button>
-                </div>
                 
               </Col>
             </Row>
@@ -41,20 +41,23 @@ const AboutSection = () => {
               <Col>
                 <Dots/>
                 <div className="a_title">
-                  Build A Climate Company
+                  <p>Radicals</p>
+                  <p>Welcome</p>
                 </div>
 
                 
                 <div className="a_desc">
-                  <p>Over 9 months, you will work with us to uncover high-impact opportunities and shape the most promising idea into a new venture.</p>
-                  <p>Receive funding, mentorship, hands-on support, access to an unparalleled pool of experts, potential co-founders and advisors.</p>
-                  <p>If you succeed, we become your first investor and help you raise a seed round.</p>
+                  <p>Do you believe climate is the only problem worth working on?</p>
+                  <p>Do you want to start building instead of just publishing?</p>
+                  <p>Do you dream of founding your own company?</p>
+                  <p>Find out more about the hard climate problems we want to solve and what we look for in applicants.</p>
+                  <p>No prior idea required. (but if you have one and people tell you it`s crazy, we`d love to hear it)</p>
+                  
+                  <div style={{marginTop: 10}}>
+                    <DarkButton text="HOW IT WORKS" type="gradient" />
+                  </div>
                 </div>
 
-                    
-                <div className="button_container">
-                  <button className="gray-button">Apply now</button>
-                </div>
                 
               </Col>
               <Col>
