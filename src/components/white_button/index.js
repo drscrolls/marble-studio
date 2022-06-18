@@ -3,10 +3,14 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCircle } from "@fortawesome/free-solid-svg-icons";
 import "./style.css";
 
-const WhiteButton = () => {
+const WhiteButton = ({text, isFooterButton}) => {
+
+  const positionStyle = isFooterButton ? 'inherit !important' : 'absolute';
+  const buttonText = text ? text : "Apply Now";
+
   return (
-    <div className="button_container" style={{marginTop: 20}}>
-      <button className="white-button">Apply now</button>
+    <div className="button_container" style={{marginTop: 20, position: positionStyle}}>
+      <button className="white-button">{buttonText}</button>
     </div>
   )
 }

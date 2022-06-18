@@ -74,3 +74,54 @@
     text-decoration: underline;
     color: #fff;
 }
+
+.footer_white-button {
+    background: #fff;
+    color: #262626;
+    position: relative;
+    overflow: hidden;
+    overflow: clip;
+    transition: all .6s cubic-bezier(.26,1.04,.54,1);
+    transition-property: all;
+    transition-duration: 0.6s;
+    transition-property: border,color;
+    text-transform: uppercase;
+    border-radius: 25px;
+    border: 0px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 12px;
+    padding: 15px 20px;
+    margin-right: 10px;
+}
+.footer_white-button:hover {
+    background: #262626;
+    color: white;
+}
+
+.footer_dark-button {
+    background: #262626;
+    color: white;
+    position: relative;
+    overflow: hidden;
+    font-size: 12px;
+    overflow: clip;
+    transition: all .6s cubic-bezier(.26,1.04,.54,1);
+    transition-property: all;
+    transition-duration: 0.6s;
+    transition-property: border,color;
+    text-transform: uppercase;
+    border-radius: 25px;
+    border: 0px;
+    cursor: pointer;
+    font-weight: bold;
+    padding: 15px 20px;
+}
+.footer_dark-button:hover {
+    background: #777;
+    color: white;
+}
+
+.footer_btn_container {
+    text-align: left;
+}
