@@ -63,6 +63,10 @@
     text-decoration: unset;
     cursor: pointer;
 }
+.footer_link a:hover {
+    text-decoration: underline;
+}
+
 .footer_link_small a {
     color: #9d9d9d;
     text-align: left;
@@ -70,8 +74,8 @@
     text-decoration: unset;
     cursor: pointer;
 }
+
 .footer_link_small a:hover {
-    text-decoration: underline;
     color: #fff;
 }
 
@@ -93,6 +97,15 @@
     font-size: 12px;
     padding: 15px 20px;
     margin-right: 10px;
+}
+.footer_white-button button .icon {
+    color: '#262626';
+    margin-left: 15px;
+    padding-left: 15px;
+    font-size: 14px;
+}
+.footer_white-button button .icon:hover {
+    color: '#fff';
 }
 .footer_white-button:hover {
     background: #262626;
@@ -122,6 +135,17 @@
     color: white;
 }
 
+.footer_dark-button button .icon {
+    color: 'white';
+    margin-left: 15px;
+    padding-left: 15px;
+    font-size: 14px;
+}
+
+
+ .icon span {
+    margin-left: 15px;
+}
 .footer_btn_container {
     text-align: left;
 }
