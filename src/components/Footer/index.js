@@ -46,24 +46,8 @@ const Footer = () => {
 
         <Row xs={1} md={2} lg={2} style={{marginTop: 40}}>
           <Col className="footer_btn_container" style={{marginLeft: 0, paddingLeft: 0}}>
-
               <WhiteButton />
               <DarkButton />
-
-
-              {/* <button className="footer_white-button">
-                Apply Now
-                <span style={{marginLeft: 10}}>
-                  <FontAwesomeIcon icon={faArrowRight} className="icon"/>
-                </span>
-              </button>
-              &nbsp;
-              <button className="footer_dark-button">
-                Join Our Community
-                <span style={{marginLeft: 10}}>
-                  <FontAwesomeIcon icon={faArrowRight} className="icon" />
-                </span>
-              </button> */}
           </Col>
           <Col>
             <Container>

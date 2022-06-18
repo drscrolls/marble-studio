@@ -6,7 +6,7 @@ import Checkbox from '@mui/material/Checkbox';
 import { grey } from '@mui/material/colors';
 import FormGroup from '@mui/material/FormGroup';
 import FormControlLabel from '@mui/material/FormControlLabel';
-import ArrowIconButton from '../arrow_icon_button';
+import ArrowRightIconButton from '../arrow_right_icon_button';
 
 const Newsletter = () => {
   return (
@@ -25,7 +25,7 @@ const Newsletter = () => {
             <div className="input_container">
               <input className="input" placeholder="your@email.com" />
               <div className="button_container" >
-                <ArrowIconButton />
+                <ArrowRightIconButton />
               </div>
             </div>
           </Col>

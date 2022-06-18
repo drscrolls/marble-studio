@@ -3,6 +3,7 @@ import { ParallaxBanner, ParallaxProvider } from 'react-scroll-parallax'
 import { Container, Row, Col, Image } from 'react-bootstrap'
 import "./style.css";
 import WhiteButton from '../white_button';
+import ArrowDownIconButton from '../arrow_down_icon_button';
 
 const VideoHeader = () => {
   return (
@@ -65,6 +66,9 @@ const VideoHeader = () => {
                 <Col>
                   <div style={{marginTop: 30, float: "left"}}>
                     <WhiteButton />
+                  </div>
+                  <div style={{marginTop: 30, float: "right"}}>
+                    <ArrowDownIconButton />
                   </div>
                 </Col>
               </Row>
