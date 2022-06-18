@@ -2,7 +2,6 @@ import React from 'react'
 import { ParallaxBanner, ParallaxProvider } from 'react-scroll-parallax'
 import { Container, Row, Col, Image } from 'react-bootstrap'
 import "./style.css";
-import VideoBackground from '../video_background';
 import WhiteButton from '../white_button';
 
 const ConclusionSection = () => {
