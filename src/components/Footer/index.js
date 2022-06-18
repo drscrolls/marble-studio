@@ -1,43 +1,63 @@
 import React from 'react'
 import { ParallaxBanner, ParallaxProvider } from 'react-scroll-parallax'
 import { Container, Row, Col, Image } from 'react-bootstrap'
-import VideoBackground from '../video_background';
 import "./style.css";
+const logoWhite = require("../../assets/logo-white.png");
 
 const Footer = () => {
   return (
     <div className="footerContainer">
       <Container>
-        <Row xs={1} md={1} lg={2}>
-          <Col>
-            <div className="n_title">SIGN UP TO OUR NEWSLETTER:</div>
-          </Col>
-          <Col>
-            <div></div>
-          </Col>
-        </Row>
-        <Row xs={1} md={1} lg={1}>
-          <Col>
-            <div className="input_container">
-              <input className="input" placeholder="your@email.com" />
-              <div className="button_container" >
-              </div>
+        <Row xs={1} md={2} lg={2}>
+          <Col style={{marginLeft: 0, paddingLeft: 0}}>
+            <div className="logoContainer">
+              <img className="logo" src={logoWhite}/>
             </div>
           </Col>
           <Col>
-            <div></div>
+            <Container>
+              <Row>
+                <Col>
+                  <div className="footer_subtitle">About</div>
+                  <p className="footer_link"><a href="#">How It Works</a></p>
+                  <p className="footer_link"><a href="#">What We Look For</a></p>
+                  <p className="footer_link"><a href="#">Contact Us</a></p>
+                  <p className="footer_link"><a href="#">Careers</a></p>
+                  <p className="footer_link"><a href="#">FAQs</a></p>
+                </Col>
+
+                <Col>
+                  <div className="footer_subtitle">Connect</div>
+                  <p className="footer_link"><a href="#">22 Rue Rene</a></p>
+                  <p className="footer_link"><a href="#">Boulanger</a></p>
+                  <p className="footer_link"><a href="#">Paris, France</a></p>
+                  <p className="footer_link"><a href="#">&nbsp;</a></p>
+                  <p className="footer_link"><a href="#">LinkedIn</a></p>
+                  <p className="footer_link"><a href="#">Twitter</a></p>
+                </Col>
+              </Row>
+            </Container>
           </Col>
         </Row>
-        <Row xs={1} md={1} lg={1}>
-          <Col>
-            <div style={{float: "left", marginTop: 10}}>
 
+        <Row xs={1} md={2} lg={2} style={{marginTop: 40}}>
+          <Col style={{marginLeft: 0, paddingLeft: 0}}>
+            <div className="logoContainer">
               
-
             </div>
           </Col>
           <Col>
-            <div></div>
+            <Container>
+              <Row>
+                <Col>
+                  <p className="footer_link_small"><a href="#">Privacy & Terms</a></p>
+                </Col>
+
+                <Col>
+                  <p className="footer_link_small">Made by <a href="#">Dr. Scrolls</a></p>
+                </Col>
+              </Row>
+            </Container>
           </Col>
         </Row>
       </Container>
