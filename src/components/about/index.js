@@ -54,7 +54,7 @@ const AboutSection = () => {
                   <p>No prior idea required. (but if you have one and people tell you it`s crazy, we`d love to hear it)</p>
                   
                   <div style={{marginTop: 10}}>
-                    <DarkButton text="HOW IT WORKS" type="gradient" />
+                    <DarkButton text="WHAT WE LOOK FOR" type="gradient" />
                   </div>
                 </div>
 

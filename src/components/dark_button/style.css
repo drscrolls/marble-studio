@@ -22,7 +22,7 @@
     color: white;
 }
 .darkBtnGradient:hover {
-    background: linear-gradient(to right, #0008888f, #005cff);
+    background: linear-gradient(to right, #000337, #005cff);
     color: white;
 }
 .darkBtnAlt:hover {

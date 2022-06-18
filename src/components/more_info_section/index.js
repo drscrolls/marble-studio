@@ -1,10 +1,8 @@
 import React from 'react'
-import { ParallaxBanner, ParallaxProvider } from 'react-scroll-parallax'
-import {Container, Row, Col, Image} from 'react-bootstrap'
-import "./style.css";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faCircle } from "@fortawesome/free-solid-svg-icons";
+import {Container, Row, Col} from 'react-bootstrap'
 import Dots from '../dots';
+import DarkButton from '../dark_button';
+import "./style.css";
 
 const MoreInfoSection = () => {
   return (
@@ -31,51 +29,79 @@ const MoreInfoSection = () => {
 
 
 
-            <Row xs={1} md={1} lg={2} style={{borderTop: '1px solid #222', paddingTop: 25, marginTop: 20}}>
+            <Row xs={1} md={1} lg={2} style={{borderTop: '1px solid #dadada', paddingTop: 25, marginTop: 20}}>
              <Col>
                 <div className="row" style={{float: 'left',texAlign: 'left'}}>
                   <p className="m_subtitle">Help Us Reverse Climate Change</p>
+                  <p className="m_subtitleDesc">
+                    Interested in research collaborations and to refer talent?
+                  </p>
                 </div>
 
               </Col>
               <Col>
                 
-                {/* <div className="button_container" style={{float: 'right'}}>
-                  <button className="gray-button">Apply now</button>
-                </div> */}
+              <div style={{float: 'right'}}>
+                <DarkButton text="LET'S TALK SCIENCE" type="gradient" />
+              </div>
               </Col>
             </Row>
 
 
-            <Row xs={1} md={1} lg={2} style={{borderTop: '1px solid #222', paddingTop: 25, marginTop: 20}}>
+            <Row xs={1} md={1} lg={2} style={{borderTop: '1px solid #dadada', paddingTop: 25, marginTop: 20}}>
              <Col>
                 <div className="row subtitle" style={{float: 'left',texAlign: 'left'}}>
-                  <p className="m_subtitle">Help Us Reverse Climate Change</p>
+                  <p className="m_subtitle">Corporates & Investors</p>
+                  <p className="m_subtitleDesc">
+                    Interested in partnering to tackle hard climate problems?
+                  </p>
                 </div>
 
               </Col>
               <Col>
                 
-                {/* <div className="button_container" style={{float: 'right'}}>
-                  <button className="gray-button">Apply now</button>
-                </div> */}
+                <div style={{float: 'right'}}>
+                  <DarkButton text="LET'S TALK BUSINESS" type="gradient" />
+                </div>
               </Col>
             </Row>
 
             
 
-            <Row xs={1} md={1} lg={2} style={{borderTop: '1px solid #222', paddingTop: 25, marginTop: 20}}>
+            <Row xs={1} md={1} lg={2} style={{borderTop: '1px solid #dadada', paddingTop: 25, marginTop: 20}}>
              <Col>
                 <div className="row" style={{float: 'left',texAlign: 'left'}}>
-                  <p className="m_subtitle">Help Us Reverse Climate Change</p>
+                  <p className="m_subtitle">Dream Job Seekers</p>
+                  <p className="m_subtitleDesc">
+                    Looking for a role at Marble on the programme side?
+                  </p>
                 </div>
 
               </Col>
               <Col>
                 
-                {/* <div className="button_container" style={{float: 'right'}}>
-                  <button className="gray-button">Apply now</button>
-                </div> */}
+                <div style={{float: 'right'}}>
+                  <DarkButton text="SEE OPEN VACANCIES" type="gradient" />
+                </div>
+              </Col>
+            </Row>
+
+
+            <Row xs={1} md={1} lg={2} style={{borderTop: '1px solid #dadada', paddingTop: 25, marginTop: 20}}>
+             <Col>
+                <div className="row" style={{float: 'left',texAlign: 'left'}}>
+                  <p className="m_subtitle">Stay In Touch</p>
+                  <p className="m_subtitleDesc">
+                    Want to keep up to date with our work? 
+                  </p>
+                </div>
+
+              </Col>
+              <Col>
+                
+                <div style={{float: 'right'}}>
+                  <DarkButton text="SIGN UP TO OUR NEWSLETTER" type="gradient" />
+                </div>
               </Col>
             </Row>
 

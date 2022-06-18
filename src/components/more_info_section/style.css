@@ -6,8 +6,8 @@
 
 .m_title {
     color: black;
-    font-size: 50px;
-    font-family: Arial;
+    font-size: 4em;
+    font-family: 'Arial', cursive;
     float: left;
     text-align: left;
     line-height: 0.9;
@@ -17,10 +17,18 @@
 
 .m_subtitle {
     color: black;
+    font-size: 30px;
     float: left;
     text-align: left;
-    font-size: 20px;
-    font-weight: 500;
+    line-height: 0.9;
+    font-weight: bold;
+    margin-bottom: 0.5em;
+    font-family: 'Arial', cursive;
+}
+.m_subtitleDesc {
+    color: #515050;
+    text-align: left;
+    font-weight: 400;
 }
 
 .m_desc {
