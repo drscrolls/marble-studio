@@ -2,6 +2,7 @@ import React from 'react'
 import { ParallaxBanner, ParallaxProvider } from 'react-scroll-parallax'
 import { Container, Row, Col, Image } from 'react-bootstrap'
 import "./style.css";
+import WhiteButton from '../white_button';
 
 const VideoHeader = () => {
   return (
@@ -62,8 +63,8 @@ const VideoHeader = () => {
               </Row>
               <Row>
                 <Col>
-                  <div className="button_container" style={{marginTop: 20}}>
-                    <button className="white-button">Apply now</button>
+                  <div style={{marginTop: 30, float: "left"}}>
+                    <WhiteButton />
                   </div>
                 </Col>
               </Row>

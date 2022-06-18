@@ -1,5 +1,5 @@
 
-.white-button {
+.whiteBtn {
     background: #fff;
     color: #262626;
     position: relative;
@@ -14,9 +14,20 @@
     border: 0px;
     cursor: pointer;
     font-weight: bold;
+    font-size: 12px;
     padding: 15px 20px;
+    margin-right: 10px;
 }
-.white-button:hover {
+.whiteBtn button .icon {
+    color: '#262626';
+    margin-left: 15px;
+    padding-left: 15px;
+    font-size: 14px;
+}
+.whiteBtn button .icon:hover {
+    color: '#fff';
+}
+.whiteBtn:hover {
     background: #262626;
     color: white;
 }

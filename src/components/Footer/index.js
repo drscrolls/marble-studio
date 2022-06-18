@@ -1,11 +1,10 @@
 import React from 'react'
-import { ParallaxBanner, ParallaxProvider } from 'react-scroll-parallax'
 import { Container, Row, Col, Image } from 'react-bootstrap'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import {TouchableHighlight} from "react-native-web";
 import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
-import "./style.css";
 import WhiteButton from '../white_button';
+import "./style.css";
+
 const logoWhite = require("../../assets/logo-white.png");
 
 const Footer = () => {
@@ -46,7 +45,10 @@ const Footer = () => {
 
         <Row xs={1} md={2} lg={2} style={{marginTop: 40}}>
           <Col className="footer_btn_container" style={{marginLeft: 0, paddingLeft: 0}}>
-              <button className="footer_white-button">
+
+              <WhiteButton />
+
+              {/* <button className="footer_white-button">
                 Apply Now
                 <span style={{marginLeft: 10}}>
                   <FontAwesomeIcon icon={faArrowRight} className="icon"/>
@@ -58,7 +60,7 @@ const Footer = () => {
                 <span style={{marginLeft: 10}}>
                   <FontAwesomeIcon icon={faArrowRight} className="icon" />
                 </span>
-              </button>
+              </button> */}
           </Col>
           <Col>
             <Container>

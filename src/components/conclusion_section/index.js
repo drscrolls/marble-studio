@@ -3,6 +3,7 @@ import { ParallaxBanner, ParallaxProvider } from 'react-scroll-parallax'
 import { Container, Row, Col, Image } from 'react-bootstrap'
 import "./style.css";
 import VideoBackground from '../video_background';
+import WhiteButton from '../white_button';
 
 const ConclusionSection = () => {
   return (
@@ -71,7 +72,7 @@ const ConclusionSection = () => {
                     </Row>
                     <Row>
                       <Col>
-                        <button style={{float: 'left', marginLeft: 20}} className="white-button">Apply now</button>
+                        <WhiteButton />
                       </Col>
                     </Row>
                   </Container>
