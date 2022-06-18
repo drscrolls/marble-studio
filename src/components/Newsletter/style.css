@@ -1,5 +1,45 @@
-
+.newsLetterContainer {
+    background-color: black;
+    padding: 50px;
+    width: 100%;
+}
 
 .conclusionVideo {
     width: 100%;
+}
+.n_title {
+    color: white;
+    font-size: 12px;
+    margin-bottom: 50px;
+    float: left;
+    font-weight: 600;
+}
+.input_container {
+    /* margin-bottom: 60px; */
+    float: left;
+    width: 36em;
+    position: relative;
+}
+.input {
+    height: 5.2rem;
+    padding: 0;
+    background-color: transparent;
+    border-bottom: 1px solid hsla(0,0%,100%,.15) !important;
+    font-weight: 450;
+    line-height: 0;
+    font-family: NeueHaasGroteskDisplay,Helvetica Neue,helvetica,arial,sans-serif;
+    line-height: 1.4;
+    white-space: pre-wrap;
+    transition: color 1s cubic-bezier(.16,1.08,.38,.98),border-color 1s cubic-bezier(.16,1.08,.38,.98);
+    color: white;
+    border: 0px;
+    outline: none;
+    /* margin-bottom: 60px; */
+    float: left;
+    width: 100%;
+    font-size: 23px;
+}
+.input::placeholder{
+    color: #444;
+    font-size: 3em !important;
 }
