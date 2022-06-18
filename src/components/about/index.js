@@ -39,7 +39,7 @@ const AboutSection = () => {
 
             <Row xs={1} md={1} lg={2} style={{marginTop: 120}}>
               <Col>
-              <span class="dots_dots__nGOi0" aria-hidden="true"></span>
+                <Dots/>
                 <div className="a_title">
                   Build A Climate Company
                 </div>

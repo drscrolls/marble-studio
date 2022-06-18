@@ -10,7 +10,7 @@ const VideoHeader = () => {
         <ParallaxProvider>
           <ParallaxBanner
             className="bannerBg"
-            style={{ aspectRatio: '2 / 1' }}
+            style={{ aspectRatio: '3 / 1' }}
             layers={[
               {
                 speed: -20,
