@@ -6,3 +6,30 @@
 .conclusionVideo {
     width: 100%;
 }
+
+.conclusion_text {
+    line-height: .8;
+    color: #fff;    
+    font-family: 'Arial', cursive;
+    white-space: pre-wrap;
+    letter-spacing: -.04em;
+    font-size: 7rem;
+    font-weight: bold;
+    float: left;
+    margin-bottom: 5px;
+    
+}
+
+.c_desc_container {
+    margin-left: 75.7556561086rem;
+    width: 42.0090497738rem;
+    margin-top: 0;
+}
+
+.c_desc {
+    color: #fff;
+}
+.conclusion_content{
+    position: relative;
+    z-index: 1;
+}
