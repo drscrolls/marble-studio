@@ -1,17 +1,30 @@
-.button {
-    width: 50px;
+
+.darkBtn {
+    background: #262626;
+    color: white;
+    position: relative;
+    overflow: hidden;
+    font-size: 12px;
+    overflow: clip;
+    transition: all .6s cubic-bezier(.26,1.04,.54,1);
+    transition-property: all;
+    transition-duration: 0.6s;
+    transition-property: border,color;
+    text-transform: uppercase;
+    border-radius: 25px;
     border: 0px;
-    border-radius: 50%;
-    height: 50px;
-    justify-content: center;
-    align-content: center;
-    align-items: center;
-    text-align: center;
-    display: flex;
-    background-color: #262626;
     cursor: pointer;
+    font-weight: bold;
+    padding: 15px 20px;
+}
+.darkBtn:hover {
+    background: #777;
+    color: white;
 }
 
-.button:active{
-    background-color: #222;
+.darkBtn button .icon {
+    color: 'white';
+    margin-left: 15px;
+    padding-left: 15px;
+    font-size: 14px;
 }

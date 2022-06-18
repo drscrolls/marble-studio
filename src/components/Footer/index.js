@@ -4,6 +4,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
 import WhiteButton from '../white_button';
 import "./style.css";
+import DarkButton from '../dark_button';
 
 const logoWhite = require("../../assets/logo-white.png");
 
@@ -47,6 +48,7 @@ const Footer = () => {
           <Col className="footer_btn_container" style={{marginLeft: 0, paddingLeft: 0}}>
 
               <WhiteButton />
+              <DarkButton />
 
               {/* <button className="footer_white-button">
                 Apply Now

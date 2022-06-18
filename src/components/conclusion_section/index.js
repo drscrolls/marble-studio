@@ -72,7 +72,10 @@ const ConclusionSection = () => {
                     </Row>
                     <Row>
                       <Col>
-                        <WhiteButton />
+                        <div style={{float: 'left', marginLeft: 20}}>
+                          <WhiteButton />
+                        </div>
+                        
                       </Col>
                     </Row>
                   </Container>
