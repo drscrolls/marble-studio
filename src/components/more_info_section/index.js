@@ -10,7 +10,7 @@ const MoreInfoSection = () => {
   return (
     <div className="moreInfoContainer">
       <div>
-          <Container>
+          <Container style={{marginLeft: 0, marginRight: 0}}>
             <Row xs={1} md={1} lg={2} style={{marginBottom: 200}}>
             <Col>
                 <Dots />

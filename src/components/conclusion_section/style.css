@@ -2,8 +2,9 @@
     width: 100%;
 }
 .c_text_container {
-    padding-top: 5em;
-    padding-bottom: 5em;
+    padding: 5em 0;
+    margin-left: 30px;
+    margin-right: 30px;
 
 }
 .c_desc_container {
