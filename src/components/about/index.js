@@ -3,6 +3,8 @@ import {Container, Row, Col} from 'react-bootstrap'
 import Dots from '../dots';
 import DarkButton from '../dark_button';
 import "./style.css";
+import GlobeHorizontal from '../globe_horizontal';
+import GlobeVertical from '../globe_vertical';
 
 const AboutSection = () => {
   return (
@@ -12,7 +14,7 @@ const AboutSection = () => {
             <Row xs={1} md={1} lg={2}>
               <Col>
                 <div className="imageContainer">
-                  <img className="img" src={require("../../assets/globe.png")} />
+                  <GlobeHorizontal />
                 </div>
               </Col>
               <Col>
@@ -62,7 +64,7 @@ const AboutSection = () => {
               </Col>
               <Col>
                 <div className="imageContainer">
-                  <img className="img" src={require("../../assets/globe.png")} />
+                  <GlobeVertical />
                 </div>
               </Col>
             </Row>

@@ -9,10 +9,7 @@
     padding: 20px;
     background-color: black;
 }
-.img {
-    height: 20em;
-    animation: rotation 8s infinite linear;
-}
+
 
 @keyframes rotation {
     from {

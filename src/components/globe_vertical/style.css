@@ -1,0 +1,6 @@
+.globeImg {
+    height: 30em;
+    animation: rotation 8s infinite linear;
+    transform: translate3d(0px, 7.979px, 0px) rotate(1.32986deg);
+    will-change: transform;
+}
