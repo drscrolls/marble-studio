@@ -9,7 +9,7 @@ import Header from '../navigation';
 const VideoHeader = () => {
   return (
     <div className="mainHeaderContainer">
-        
+      
       <div className="videoContainer">
         <ParallaxProvider>
           <ParallaxBanner

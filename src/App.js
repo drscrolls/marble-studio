@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.css';
 import Header from './components/navigation';
 import CompanySection from './components/company_section';
@@ -13,7 +12,7 @@ function App() {
 
       <ParallaxProvider>
         <ParallaxBanner
-          style={{ height: "100vh", zIndex: 1 }}
+          style={{ height: "100vh", zIndex: 0, position:"relative" }}
           layers={[
             {
               children: (
@@ -26,7 +25,7 @@ function App() {
           
         </ParallaxBanner>
         <Parallax
-          className="your-class"
+          speed={-40}
           style={{height: "100vh"}}
           translateY={[
             '50%',
@@ -36,37 +35,6 @@ function App() {
         </Parallax>
       </ParallaxProvider>
 
-
-
-        {/* <ParallaxProvider>
-          <ParallaxBanner
-            className="videoContainer"
-            
-            layers={[
-              {
-                // image: imgSrc2,
-                speed: -20,
-                amount: 0.5,
-                children: (
-                  <VideoBackground />
-                ),
-              }
-            ]}
-          >
-            <div
-              style={{
-                position: "relative",
-                color: "white"
-              }}
-            >
-              <VideoContent />
-            </div>
-          </ParallaxBanner>
-          
-          <CompanySection />
-          
-        </ParallaxProvider> */}
-      
     </div>
   );
 }
