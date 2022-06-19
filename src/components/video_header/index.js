@@ -4,10 +4,12 @@ import { Container, Row, Col, Image } from 'react-bootstrap'
 import "./style.css";
 import WhiteButton from '../white_button';
 import ArrowDownIconButton from '../arrow_down_icon_button';
+import Header from '../navigation';
 
 const VideoHeader = () => {
   return (
     <div className="mainHeaderContainer">
+        
       <div className="videoContainer">
         <ParallaxProvider>
           <ParallaxBanner
@@ -35,6 +37,8 @@ const VideoHeader = () => {
 
 
       <div className="headerTextContainer">
+       
+
         <div className="textContainer">
           <div className="">
             <div className="h_text_container">
@@ -67,9 +71,10 @@ const VideoHeader = () => {
                   <div style={{marginTop: 30, float: "left"}}>
                     <WhiteButton />
                   </div>
-                  <div style={{marginTop: 30, float: "right"}}>
+
+                  {/* <div style={{marginTop: 30, float: "right"}}>
                     <ArrowDownIconButton />
-                  </div>
+                  </div> */}
                 </Col>
               </Row>
             </Container>
@@ -77,6 +82,10 @@ const VideoHeader = () => {
           </div>
           
         </div>
+
+        <div className="arrowDownButtonClass">
+            <ArrowDownIconButton />
+          </div>
       </div>
     </div>
   )

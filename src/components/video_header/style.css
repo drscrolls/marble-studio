@@ -93,3 +93,11 @@ h1 h2 h3 h4 h5 h6 {
     white-space: pre-wrap;
     letter-spacing: -.04em;
   }
+
+.arrowDownButtonClass {
+  position: absolute;
+  right: 0;
+  z-index: 1;
+  width: fit-content;
+  bottom: 0;
+}
